@@ -1,5 +1,5 @@
 <nav class="nav d-flex align-items-center">
-    <div class="logo me-auto" style="padding-left: 60px;">
+    <div class="logo me-auto">
         <figure>
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Logo" style="height: 185px; width: auto;">
         </figure>
@@ -28,8 +28,14 @@
         </li>
     </div>
     <!-- Buttons on the right side -->
-    <div class="button-group ms-3" id="navBtn" style="padding-right: 65px;">
-        <a href="#" class="btn btn-sm fw-400 me-2">Search</a>
-        <a href="#" class="btn btn-sm fw-400">Cart</a>
+    <div class="button-group ms-3" id="navBtn">
+        <a href="#" class="btn btn-sm fw-400 me-2">
+        <i class="fa-solid fa-magnifying-glass me-2"></i>
+            Search
+        </a>
+        <a href="#" class="btn btn-sm fw-400">
+        <i class="fa-solid fa-cart-shopping me-2"></i>
+            Cart
+        </a>
     </div>
 </nav>

@@ -1,4 +1,4 @@
-<div id="homepage" class="100vh">
+<div id="homepage">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
@@ -6,7 +6,10 @@
                     <h1>Find your spin,</h1>
                     <h1>Explore more music.</h1>
                     <p>Find your groove and journey through our diverse collection of records to elevate your music experience</p>
-                    <a class="btn mt-3" href="#" id="shopNow">Shop Now</a>
+                    <a class="btn mt-3" href="#" id="shopNow">
+                    <i class="fa-solid fa-bag-shopping me-2"></i>
+                        Shop Now
+                    </a>
                 </div>
             </div>
             <div class="col-12 col-md-6 d-flex align-items-end justify-content-end">
