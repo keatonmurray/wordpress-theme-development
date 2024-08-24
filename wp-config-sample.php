@@ -20,16 +20,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'if0_37123654_spincityrecords_db24' );
+define( 'DB_NAME', 'spincityrecords' );
 
 /** Database username */
-define( 'DB_USER', 'if0_37123654' );
+define( 'DB_USER', 'debian-sys-maint' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'zjv8659r' );
+define( 'DB_PASSWORD', '6sKWT1bd1BENSSvZ' );
 
 /** Database hostname */
-define( 'DB_HOST', 'sql110.infinityfree.com' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
