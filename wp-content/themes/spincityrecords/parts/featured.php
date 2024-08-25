@@ -1,4 +1,4 @@
-<div id="featured" style="height: 100vh">
+<div id="featured" style="height: auto">
     <h1 id="pageTitle" class="text-center">
         Music is the soul's universal language
         <div>

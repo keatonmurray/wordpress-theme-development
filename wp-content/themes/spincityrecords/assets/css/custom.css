@@ -93,7 +93,8 @@ body {
     border-radius: unset !important;
 }
 
-#featured #featuredProductTitle {
+#featured #featuredProductTitle,
+#blog #blogSubtitle {
     font-size: 12px;
     color: rgb(177, 177, 177) !important;
 }
