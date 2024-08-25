@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-12 col-md-3 text-start">
                 <figure>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/genre1.jpg" alt="Genre Background Image" style="height: 253px;width: 185px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/genre1.jpg" alt="Genre Background Image" style="height: 300px;width: 220px;">
                 </figure>
                 <p id="categoryTitle">
                     CD
@@ -14,7 +14,7 @@
             </div>
             <div class="col-12 col-md-3 text-start">
                 <figure>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/genre2.jpg" alt="Genre Background Image" style="height: 253px;width: 185px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/genre2.jpg" alt="Genre Background Image" style="height: 300px;width: 220px;">
                 </figure>
                 <p id="categoryTitle">
                     Vinyl
@@ -22,7 +22,7 @@
             </div>
             <div class="col-12 col-md-3 text-start">
                 <figure>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/genre3.jpg" alt="Genre Background Image" style="height: 253px;width: 185px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/genre3.jpg" alt="Genre Background Image" style="height: 300px;width: 220px;">
                 </figure>
                 <p id="categoryTitle">
                     Cassette
@@ -30,7 +30,7 @@
             </div>
             <div class="col-12 col-md-3 text-start">
                 <figure>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/genre4.jpg" alt="Genre Background Image" style="height: 253px;width: 185px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/genre4.jpg" alt="Genre Background Image" style="height: 300px;width: 220px;">
                 </figure>
                 <p id="categoryTitle">
                     Others
