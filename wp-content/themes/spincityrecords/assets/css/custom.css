@@ -15,7 +15,7 @@ hr,
 #homepage,
 #categories,
 #blog,
-#featured {
+#products {
     height: 100vh;
 }
 
@@ -98,7 +98,7 @@ body {
     text-decoration: none;
 }
 
-#featured .btn {
+#products .btn {
     background-color: #000;
     color: #fff;
     text-transform: uppercase;
@@ -106,7 +106,7 @@ body {
     border-radius: unset !important;
 }
 
-#featured #featuredProductTitle,
+#products #featuredProductTitle,
 #blog #blogSubtitle {
     font-size: 12px;
     color: rgb(177, 177, 177) !important;
@@ -172,14 +172,14 @@ body {
         font-size: 25px !important;
     }
 
-    #featured img {
+    #products img {
         height: 300px !important;
         width: 300px !important;
     }
 
 }
 
-#featured .featured-products .cart {
+#products .featured-products .cart {
     background-color: #000; 
     padding: 8px;
     display: flex;
@@ -188,6 +188,6 @@ body {
     font-size: 12px;
 }
 
-#featured .featured-products .cart span {
+#products .featured-products .cart span {
     font-weight: 500;
 }

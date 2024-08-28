@@ -1,12 +1,15 @@
 <?php get_header(); ?>
-
-<?php get_template_part('parts/nav'); ?>
+<?php get_template_part('parts/nav');?>
 
 <main>
-    <?php get_template_part('parts/homepage'); ?> 
-    <?php get_template_part('parts/categories'); ?>
-    <?php get_template_part('parts/featured'); ?>
-    <?//php get_template_part('parts/blog'); ?>
+    <?php 
+    
+    if(is_home()) {
+        get_template_part('templates/homepage');
+        get_template_part('templates/catalogues');
+        get_template_part('templates/products');
+    }
+    ?>
 </main>
 
 <?php get_footer(); ?>
