@@ -9,3 +9,4 @@
         <?php get_template_part('sections/catalogues'); ?>
     </div>
 </div>
+<br/><br/>

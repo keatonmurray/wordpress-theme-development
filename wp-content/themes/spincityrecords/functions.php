@@ -13,6 +13,9 @@
         // Enqueue Custom CSS
         wp_enqueue_style('custom', get_template_directory_uri() . '/assets/css/custom.css', array('theme-style'), '1.0.0', 'all');
 
+        // Enqueue Responsive CSS
+        wp_enqueue_style('responsive', get_template_directory_uri() . '/assets/css/responsive.css', array('theme-style'), '1.0.0', 'all');
+
         // Enqueue Bootstrap JS
         wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', array('jquery'), '5.3.3', true);
         

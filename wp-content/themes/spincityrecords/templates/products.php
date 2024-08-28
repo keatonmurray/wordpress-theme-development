@@ -1,5 +1,4 @@
-<?php get_template_part('partials/quote'); ?>
-<div id="products" class="container d-flex justify-content-center">
+<div id="products" class="d-flex justify-content-center align-items-center">
     <div class="featured-products">
         <?php get_template_part('sections/products'); ?>
     </div>
