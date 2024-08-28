@@ -7,6 +7,9 @@
         // Enqueue Bootstrap CSS
         wp_enqueue_style('bootstrap-css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css', array(), '5.3.3');
 
+        // Enqueue Bootstrap JS
+        wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', array('jquery'), '5.3.3', true);
+
         // Enqueue Theme's main stylesheet
         wp_enqueue_style('theme-style', get_stylesheet_uri());
 
@@ -16,9 +19,6 @@
         // Enqueue Responsive CSS
         wp_enqueue_style('responsive', get_template_directory_uri() . '/assets/css/responsive.css', array('theme-style'), '1.0.0', 'all');
 
-        // Enqueue Bootstrap JS
-        wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', array('jquery'), '5.3.3', true);
-        
         // Enqueue Font Awesome
         wp_enqueue_script('font-awesome', 'https://kit.fontawesome.com/5dfbc71075.js', array(), null, true);
     }

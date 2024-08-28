@@ -9,6 +9,8 @@
         get_template_part('templates/catalogues');
         get_template_part('partials/quote');
         get_template_part('templates/products');
+        get_template_part('templates/blogs');
+        get_template_part('templates/newsletter');
     }
     ?>
 </main>
